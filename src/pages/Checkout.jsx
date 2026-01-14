@@ -21,7 +21,8 @@ import {
   Trash2,
   MessageCircle,
   Send,
-  Briefcase
+  Briefcase,
+  Plus
 } from 'lucide-react'
 import { format, addDays } from 'date-fns'
 
@@ -37,10 +38,12 @@ export default function Checkout() {
   const [loading, setLoading] = useState(true)
   const [submitting, setSubmitting] = useState(false)
   const [searchQuery, setSearchQuery] = useState('')
-  const [selectedAsset, setSelectedAsset] = useState(null)
+  const [selectedAssets, setSelectedAssets] = useState([])
   const [showAssetDropdown, setShowAssetDropdown] = useState(false)
   const [photos, setPhotos] = useState([])
   const [photosPreviews, setPhotosPreviews] = useState([])
+  const [kitName, setKitName] = useState(null)
+  const [categoryFilter, setCategoryFilter] = useState('')
 
   const [form, setForm] = useState({
     borrower_name: '',
@@ -59,21 +62,44 @@ export default function Checkout() {
 
   useEffect(() => {
     const assetId = searchParams.get('asset')
-    if (assetId && assets.length > 0) {
+    const kitId = searchParams.get('kit')
+
+    if (kitId && assets.length > 0) {
+      // Load kit items
+      loadKitItems(kitId)
+    } else if (assetId && assets.length > 0) {
       const asset = assets.find(a => a.asset_id === assetId)
       if (asset && asset.status === 'available') {
-        setSelectedAsset(asset)
+        setSelectedAssets([asset])
       }
     }
   }, [searchParams, assets])
 
+  const loadKitItems = async (kitId) => {
+    try {
+      const kitsRes = await assetApi.getKits()
+      const kit = kitsRes.kits?.find(k => k.id === kitId)
+      if (kit) {
+        setKitName(kit.name)
+        const kitAssets = kit.asset_ids
+          ?.map(id => assets.find(a => a.asset_id === id))
+          .filter(a => a && a.status === 'available')
+        if (kitAssets && kitAssets.length > 0) {
+          setSelectedAssets(kitAssets)
+        }
+      }
+    } catch (error) {
+      toast.error('Failed to load kit items')
+    }
+  }
+
   const loadData = async () => {
     try {
       const [assetsRes, borrowersRes] = await Promise.all([
-        assetApi.getAll({ status: 'available' }),
+        assetApi.getAll(),
         userApi.getBorrowers()
       ])
-      setAssets(assetsRes.assets?.filter(a => a.status === 'available') || [])
+      setAssets(assetsRes.assets || [])
       setBorrowers(borrowersRes.borrowers || [])
     } catch (error) {
       toast.error('Failed to load data')
@@ -82,11 +108,27 @@ export default function Checkout() {
     }
   }
 
-  const filteredAssets = assets.filter(asset =>
-    !searchQuery ||
-    asset.asset_name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    asset.asset_id.toLowerCase().includes(searchQuery.toLowerCase())
-  )
+  const categories = [...new Set(assets.filter(a => a.status === 'available').map(a => a.category))].sort()
+
+  const filteredAssets = assets.filter(asset => {
+    const matchesSearch = !searchQuery ||
+      asset.asset_name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      asset.asset_id.toLowerCase().includes(searchQuery.toLowerCase())
+    const matchesCategory = !categoryFilter || asset.category === categoryFilter
+    const notSelected = !selectedAssets.find(a => a.asset_id === asset.asset_id)
+    const isAvailable = asset.status === 'available'
+    return matchesSearch && matchesCategory && notSelected && isAvailable
+  })
+
+  const addAsset = (asset) => {
+    setSelectedAssets(prev => [...prev, asset])
+    setShowAssetDropdown(false)
+    setSearchQuery('')
+  }
+
+  const removeAsset = (assetId) => {
+    setSelectedAssets(prev => prev.filter(a => a.asset_id !== assetId))
+  }
 
   const handlePhotoAdd = (e) => {
     const files = Array.from(e.target.files)
@@ -121,8 +163,8 @@ export default function Checkout() {
   const handleSubmit = async (e) => {
     e.preventDefault()
 
-    if (!selectedAsset) {
-      toast.error('Please select an equipment')
+    if (selectedAssets.length === 0) {
+      toast.error('Please select at least one equipment')
       return
     }
 
@@ -138,41 +180,58 @@ export default function Checkout() {
 
     setSubmitting(true)
     try {
-      // Upload photos first if any
-      const uploadedPhotoPaths = []
-      for (const photo of photos) {
-        const formData = new FormData()
-        formData.append('photo', photo)
-        formData.append('photo_type', 'checkout')
-        formData.append('transaction_type', 'checkout')
-        formData.append('borrower_name', form.borrower_name)
+      let result
 
-        try {
-          const uploadRes = await assetApi.uploadPhoto(selectedAsset.asset_id, formData)
-          if (uploadRes.photo_path) {
-            uploadedPhotoPaths.push(uploadRes.photo_path)
+      if (selectedAssets.length === 1) {
+        // Single item checkout
+        const selectedAsset = selectedAssets[0]
+
+        // Upload photos first if any
+        const uploadedPhotoPaths = []
+        for (const photo of photos) {
+          const formData = new FormData()
+          formData.append('photo', photo)
+          formData.append('photo_type', 'checkout')
+          formData.append('transaction_type', 'checkout')
+          formData.append('borrower_name', form.borrower_name)
+
+          try {
+            const uploadRes = await assetApi.uploadPhoto(selectedAsset.asset_id, formData)
+            if (uploadRes.photo_path) {
+              uploadedPhotoPaths.push(uploadRes.photo_path)
+            }
+          } catch (err) {
+            console.error('Photo upload failed:', err)
           }
-        } catch (err) {
-          console.error('Photo upload failed:', err)
         }
+
+        result = await assetApi.checkout(selectedAsset.asset_id, {
+          borrower_name: form.borrower_name,
+          expected_return_date: form.expected_return_date,
+          project: form.project,
+          purpose: form.purpose,
+          notes: form.notes,
+          photos: uploadedPhotoPaths
+        })
+      } else {
+        // Bulk checkout for multiple items
+        result = await assetApi.bulkCheckout({
+          asset_ids: selectedAssets.map(a => a.asset_id),
+          borrower_name: form.borrower_name,
+          expected_return_date: form.expected_return_date,
+          project: form.project,
+          purpose: form.purpose,
+          notes: form.notes
+        })
       }
 
-      // Now checkout with photo paths
-      const result = await assetApi.checkout(selectedAsset.asset_id, {
-        borrower_name: form.borrower_name,
-        expected_return_date: form.expected_return_date,
-        project: form.project,
-        purpose: form.purpose,
-        notes: form.notes,
-        photos: uploadedPhotoPaths
-      })
-
-      toast.success(`${selectedAsset.asset_name} checked out successfully`)
+      toast.success(`${selectedAssets.length} item${selectedAssets.length > 1 ? 's' : ''} checked out successfully`)
 
       // Send WhatsApp message if enabled and phone number provided
       if (sendWhatsApp && form.borrower_phone) {
         const cleanPhone = form.borrower_phone.replace(/[^0-9]/g, '')
-        const message = `Hi ${form.borrower_name},%0A%0AThe following equipment has been checked out to you:%0A%0A*${selectedAsset.asset_name}*%0AID: ${selectedAsset.asset_id}%0ACategory: ${selectedAsset.category}%0AProject: ${form.project || 'Not specified'}%0A%0AExpected Return: ${format(new Date(form.expected_return_date), 'MMMM d, yyyy')}%0APurpose: ${form.purpose || 'Not specified'}%0A%0APlease take care of the equipment and return it on time.%0A%0A- NeoFox Media Equipment Team`
+        const itemsList = selectedAssets.map(a => `• ${a.asset_name} (${a.asset_id})`).join('%0A')
+        const message = `Hi ${form.borrower_name},%0A%0AThe following equipment has been checked out to you:%0A%0A${itemsList}%0A%0AProject: ${form.project || 'Not specified'}%0AExpected Return: ${format(new Date(form.expected_return_date), 'MMMM d, yyyy')}%0APurpose: ${form.purpose || 'Not specified'}%0A%0APlease take care of the equipment and return it on time.%0A%0A- NeoFox Media Equipment Team`
 
         window.open(`https://wa.me/${cleanPhone}?text=${message}`, '_blank')
       }
@@ -182,13 +241,14 @@ export default function Checkout() {
         navigate('/checkout/receipt', {
           state: {
             checkoutData: {
-              asset: selectedAsset,
+              asset: selectedAssets,
               borrower: form.borrower_name,
               returnDate: form.expected_return_date,
               project: form.project,
               purpose: form.purpose,
               notes: form.notes,
-              transactionId: result.transaction_id
+              transactionId: result.transaction_id || result.transaction_ids?.[0],
+              kitName: kitName
             }
           }
         })
@@ -229,82 +289,102 @@ export default function Checkout() {
       <form onSubmit={handleSubmit} className="space-y-6">
         {/* Equipment Selection */}
         <div className="card">
-          <div className="card-header">
+          <div className="card-header flex items-center justify-between">
             <h3 className="font-semibold flex items-center gap-2">
               <Package className="w-5 h-5 text-neofox-yellow" />
               Select Equipment
+              {kitName && <span className="text-sm text-neofox-yellow font-normal ml-2">({kitName})</span>}
             </h3>
+            <span className="text-sm text-gray-400">
+              {selectedAssets.length} item{selectedAssets.length !== 1 ? 's' : ''} selected
+            </span>
           </div>
           <div className="card-body">
-            {selectedAsset ? (
-              <div className="flex items-center gap-4 p-4 bg-neofox-darker rounded-lg">
-                <div className="w-16 h-16 bg-neofox-gray rounded-lg flex items-center justify-center overflow-hidden">
-                  {selectedAsset.photo ? (
-                    <img src={selectedAsset.photo} alt="" className="w-full h-full object-cover" />
-                  ) : (
-                    <Package className="w-8 h-8 text-gray-500" />
-                  )}
-                </div>
-                <div className="flex-1">
-                  <p className="font-medium">{selectedAsset.asset_name}</p>
-                  <p className="text-sm text-neofox-yellow font-mono">{selectedAsset.asset_id}</p>
-                  <p className="text-sm text-gray-400">{selectedAsset.category}</p>
-                </div>
-                <button
-                  type="button"
-                  onClick={() => setSelectedAsset(null)}
-                  className="p-2 hover:bg-neofox-gray rounded-lg transition-colors"
-                >
-                  <X className="w-5 h-5" />
-                </button>
+            {/* Selected Assets */}
+            {selectedAssets.length > 0 && (
+              <div className="mb-4 space-y-2">
+                {selectedAssets.map(asset => (
+                  <div
+                    key={asset.asset_id}
+                    className="flex items-center gap-3 p-3 bg-neofox-darker rounded-lg"
+                  >
+                    <div className="w-12 h-12 bg-neofox-gray rounded-lg flex items-center justify-center overflow-hidden">
+                      {asset.photo ? (
+                        <img src={asset.photo} alt="" className="w-full h-full object-cover" />
+                      ) : (
+                        <Package className="w-6 h-6 text-gray-500" />
+                      )}
+                    </div>
+                    <div className="flex-1">
+                      <p className="font-medium">{asset.asset_name}</p>
+                      <p className="text-sm text-gray-400">{asset.asset_id} • {asset.category}</p>
+                    </div>
+                    <button
+                      type="button"
+                      onClick={() => removeAsset(asset.asset_id)}
+                      className="p-2 hover:bg-neofox-gray rounded-lg text-red-400 hover:text-red-300 transition-colors"
+                    >
+                      <X className="w-4 h-4" />
+                    </button>
+                  </div>
+                ))}
               </div>
-            ) : (
-              <div className="relative">
-                <div className="relative">
+            )}
+
+            {/* Search and Add */}
+            <div className="relative">
+              <div className="flex gap-3">
+                <div className="relative flex-1">
                   <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-500" />
                   <input
                     type="text"
-                    placeholder="Search equipment by name or ID..."
+                    placeholder="Search equipment to add..."
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                     onFocus={() => setShowAssetDropdown(true)}
                     className="input-field pl-10"
                   />
                 </div>
-                {showAssetDropdown && (
-                  <>
-                    <div className="fixed inset-0 z-10" onClick={() => setShowAssetDropdown(false)} />
-                    <div className="absolute z-20 w-full mt-2 bg-neofox-dark border border-neofox-gray rounded-lg shadow-xl max-h-64 overflow-y-auto">
-                      {filteredAssets.length > 0 ? (
-                        filteredAssets.slice(0, 10).map(asset => (
-                          <button
-                            key={asset.asset_id}
-                            type="button"
-                            onClick={() => {
-                              setSelectedAsset(asset)
-                              setShowAssetDropdown(false)
-                              setSearchQuery('')
-                            }}
-                            className="flex items-center gap-3 w-full p-3 hover:bg-neofox-gray transition-colors"
-                          >
-                            <div className="w-10 h-10 bg-neofox-darker rounded-lg flex items-center justify-center">
-                              <Package className="w-5 h-5 text-gray-500" />
-                            </div>
-                            <div className="text-left">
-                              <p className="font-medium">{asset.asset_name}</p>
-                              <p className="text-sm text-gray-400">{asset.asset_id} • {asset.category}</p>
-                            </div>
-                            <CheckCircle className="w-5 h-5 text-green-400 ml-auto" />
-                          </button>
-                        ))
-                      ) : (
-                        <div className="p-4 text-center text-gray-500">No available equipment found</div>
-                      )}
-                    </div>
-                  </>
-                )}
+                <select
+                  value={categoryFilter}
+                  onChange={(e) => setCategoryFilter(e.target.value)}
+                  className="select-field w-40"
+                >
+                  <option value="">All Categories</option>
+                  {categories.map(cat => (
+                    <option key={cat} value={cat}>{cat}</option>
+                  ))}
+                </select>
               </div>
-            )}
+              {showAssetDropdown && (
+                <>
+                  <div className="fixed inset-0 z-10" onClick={() => setShowAssetDropdown(false)} />
+                  <div className="absolute z-20 w-full mt-2 bg-neofox-dark border border-neofox-gray rounded-lg shadow-xl max-h-64 overflow-y-auto">
+                    {filteredAssets.length > 0 ? (
+                      filteredAssets.slice(0, 20).map(asset => (
+                        <button
+                          key={asset.asset_id}
+                          type="button"
+                          onClick={() => addAsset(asset)}
+                          className="flex items-center gap-3 w-full p-3 hover:bg-neofox-gray transition-colors"
+                        >
+                          <div className="w-10 h-10 bg-neofox-darker rounded-lg flex items-center justify-center">
+                            <Package className="w-5 h-5 text-gray-500" />
+                          </div>
+                          <div className="text-left flex-1">
+                            <p className="font-medium">{asset.asset_name}</p>
+                            <p className="text-sm text-gray-400">{asset.asset_id} • {asset.category}</p>
+                          </div>
+                          <Plus className="w-5 h-5 text-neofox-yellow" />
+                        </button>
+                      ))
+                    ) : (
+                      <div className="p-4 text-center text-gray-500">No available equipment found</div>
+                    )}
+                  </div>
+                </>
+              )}
+            </div>
           </div>
         </div>
 
@@ -497,6 +577,28 @@ export default function Checkout() {
           </div>
         </div>
 
+        {/* Summary */}
+        {selectedAssets.length > 0 && (
+          <div className="card bg-neofox-yellow/10 border-neofox-yellow/30">
+            <div className="card-body">
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="text-sm text-gray-400">Ready to checkout</p>
+                  <p className="text-xl font-bold text-neofox-yellow">
+                    {selectedAssets.length} item{selectedAssets.length !== 1 ? 's' : ''}
+                  </p>
+                </div>
+                {form.borrower_name && (
+                  <div className="text-right">
+                    <p className="text-sm text-gray-400">Assigned to</p>
+                    <p className="font-medium">{form.borrower_name}</p>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Actions */}
         <div className="flex items-center justify-between gap-4">
           <button
@@ -513,7 +615,7 @@ export default function Checkout() {
             </button>
             <button
               type="submit"
-              disabled={submitting || !selectedAsset}
+              disabled={submitting || selectedAssets.length === 0}
               className="btn-primary flex items-center gap-2"
             >
               {submitting ? (
@@ -524,7 +626,7 @@ export default function Checkout() {
               ) : (
                 <>
                   <LogOut className="w-5 h-5" />
-                  Check Out
+                  Check Out {selectedAssets.length > 1 ? `${selectedAssets.length} Items` : ''}
                 </>
               )}
             </button>
