@@ -1,0 +1,3102 @@
+[
+    {
+        "id": "1",
+        "asset_id": "NF-LE-1751716706",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751716706_main_1751716706_6869136276d10.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 11:58:26",
+        "file_size": "134049",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "2",
+        "asset_id": "NF-LE-1751716706",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751716706_detail_1751716706_6869136277b8c.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 11:58:26",
+        "file_size": "152979",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "3",
+        "asset_id": "NF-LE-1751716706",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751716706_serial_1751716706_68691362787be.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 11:58:26",
+        "file_size": "167846",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "4",
+        "asset_id": "NF-LE-1751716706",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751716706_condition_1751716706_68691362799f3.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 11:58:26",
+        "file_size": "132808",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "5",
+        "asset_id": "LEN001",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751716760_main_1751716760_686913988ca4b.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 11:59:20",
+        "file_size": "227280",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "6",
+        "asset_id": "LEN001",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751716760_detail_1751716760_686913988dac4.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 11:59:20",
+        "file_size": "174901",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "7",
+        "asset_id": "LEN001",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751716760_detail_1751716760_686913988e6a6.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 11:59:20",
+        "file_size": "132659",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "8",
+        "asset_id": "LEN001",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751716760_serial_1751716760_686913988f279.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 11:59:20",
+        "file_size": "130581",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "9",
+        "asset_id": "LEN001",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751716760_condition_1751716760_686913988ff46.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 11:59:20",
+        "file_size": "234160",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "10",
+        "asset_id": "NF-LE-1751716928",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751716928_main_1751716928_6869144016a50.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 12:02:08",
+        "file_size": "130250",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "11",
+        "asset_id": "NF-LE-1751716928",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751716928_detail_1751716928_6869144017832.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:02:08",
+        "file_size": "148866",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "12",
+        "asset_id": "NF-LE-1751716928",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751716928_serial_1751716928_686914401861f.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 12:02:08",
+        "file_size": "131871",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "13",
+        "asset_id": "NF-LE-1751716928",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751716928_condition_1751716928_6869144019509.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 12:02:08",
+        "file_size": "151512",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "14",
+        "asset_id": "NF-LE-1751717064",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717064_main_1751717064_686914c830a1f.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 12:04:24",
+        "file_size": "206763",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "15",
+        "asset_id": "NF-LE-1751717064",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717064_detail_1751717064_686914c8317c4.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:04:24",
+        "file_size": "156837",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "16",
+        "asset_id": "NF-LE-1751717064",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717064_detail_1751717064_686914c832075.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:04:24",
+        "file_size": "164607",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "17",
+        "asset_id": "NF-LE-1751717064",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717064_serial_1751717064_686914c832b05.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 12:04:24",
+        "file_size": "154436",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "18",
+        "asset_id": "NF-LE-1751717064",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717064_condition_1751717064_686914c83359a.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 12:04:24",
+        "file_size": "182247",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "19",
+        "asset_id": "LEN002",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717135_main_1751717135_6869150f359db.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 12:05:35",
+        "file_size": "157316",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "20",
+        "asset_id": "LEN002",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717135_detail_1751717135_6869150f367da.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:05:35",
+        "file_size": "154859",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "21",
+        "asset_id": "LEN002",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717135_serial_1751717135_6869150f3730f.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 12:05:35",
+        "file_size": "156879",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "22",
+        "asset_id": "LEN002",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717135_condition_1751717135_6869150f37e5c.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 12:05:35",
+        "file_size": "130053",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "23",
+        "asset_id": "NF-LE-1751717245",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717245_main_1751717245_6869157dd7dda.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 12:07:25",
+        "file_size": "163595",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "24",
+        "asset_id": "NF-LE-1751717245",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717245_detail_1751717245_6869157dd9678.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:07:25",
+        "file_size": "137125",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "25",
+        "asset_id": "NF-LE-1751717245",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717245_serial_1751717245_6869157dda5ee.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 12:07:25",
+        "file_size": "155430",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "26",
+        "asset_id": "NF-LE-1751717245",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717245_condition_1751717245_6869157ddb2c8.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 12:07:25",
+        "file_size": "161832",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "27",
+        "asset_id": "LEN003",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717246_main_1751717246_6869157e6ec62.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 12:07:26",
+        "file_size": "213557",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "28",
+        "asset_id": "LEN003",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717246_detail_1751717246_6869157e6f967.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:07:26",
+        "file_size": "131634",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "29",
+        "asset_id": "LEN003",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717246_detail_1751717246_6869157e70372.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:07:26",
+        "file_size": "176013",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "30",
+        "asset_id": "LEN003",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717246_serial_1751717246_6869157e70fd3.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 12:07:26",
+        "file_size": "120027",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "31",
+        "asset_id": "LEN003",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717246_condition_1751717246_6869157e71a0d.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 12:07:26",
+        "file_size": "214093",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "32",
+        "asset_id": "NF-LE-1751717429",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717429_main_1751717429_68691635efbb9.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 12:10:29",
+        "file_size": "211523",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "33",
+        "asset_id": "NF-LE-1751717429",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717429_detail_1751717429_68691635f1412.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:10:29",
+        "file_size": "193605",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "34",
+        "asset_id": "NF-LE-1751717429",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717429_detail_1751717429_68691635f24a1.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:10:29",
+        "file_size": "175027",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "35",
+        "asset_id": "NF-LE-1751717429",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717429_serial_1751717429_68691635f327c.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 12:10:30",
+        "file_size": "148401",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "36",
+        "asset_id": "NF-LE-1751717465",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717465_main_1751717465_68691659efeb1.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 12:11:05",
+        "file_size": "132542",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "37",
+        "asset_id": "NF-LE-1751717465",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717465_detail_1751717465_68691659f0cb7.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:11:05",
+        "file_size": "167061",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "38",
+        "asset_id": "NF-LE-1751717465",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717465_serial_1751717465_68691659f19ba.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 12:11:05",
+        "file_size": "171010",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "39",
+        "asset_id": "NF-LE-1751717465",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717465_condition_1751717465_68691659f26df.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 12:11:05",
+        "file_size": "176870",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "40",
+        "asset_id": "NF-LE-1751717465",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717465_condition_1751717465_68691659f37a8.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 12:11:05",
+        "file_size": "153164",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "41",
+        "asset_id": "NF-LE-1751717465",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717465_condition_1751717466_6869165a001d6.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 12:11:06",
+        "file_size": "163645",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "42",
+        "asset_id": "NF-LE-1751717550",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717550_main_1751717550_686916ae7e25e.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 12:12:30",
+        "file_size": "233055",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "43",
+        "asset_id": "NF-LE-1751717550",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717550_detail_1751717550_686916ae7fda5.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:12:30",
+        "file_size": "144207",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "44",
+        "asset_id": "NF-LE-1751717550",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717550_detail_1751717550_686916ae80a98.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:12:30",
+        "file_size": "186468",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "45",
+        "asset_id": "NF-LE-1751717550",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717550_serial_1751717550_686916ae8133a.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 12:12:30",
+        "file_size": "152719",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "46",
+        "asset_id": "NF-LE-1751717550",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717550_condition_1751717550_686916ae81c1c.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 12:12:30",
+        "file_size": "203070",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "47",
+        "asset_id": "LEN004",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717779_main_1751717780_68691794001dd.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 12:16:20",
+        "file_size": "147344",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "48",
+        "asset_id": "LEN004",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717779_detail_1751717780_6869179400f29.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:16:20",
+        "file_size": "112184",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "49",
+        "asset_id": "LEN004",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717779_detail_1751717780_68691794020dc.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:16:20",
+        "file_size": "123322",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "50",
+        "asset_id": "LEN004",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717779_serial_1751717780_6869179403046.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 12:16:20",
+        "file_size": "133439",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "51",
+        "asset_id": "LEN004",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751717779_condition_1751717780_6869179405836.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 12:16:20",
+        "file_size": "227748",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "52",
+        "asset_id": "NF-CA-1751717868",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751717868_main_1751717868_686917ecc724e.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 12:17:48",
+        "file_size": "175567",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "53",
+        "asset_id": "NF-CA-1751717868",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751717868_detail_1751717868_686917ecc8280.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:17:48",
+        "file_size": "145873",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "54",
+        "asset_id": "NF-CA-1751717868",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751717868_condition_1751717868_686917ecc9095.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 12:17:48",
+        "file_size": "149367",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "55",
+        "asset_id": "NF-CA-1751718085",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751718085_main_1751718085_686918c508188.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 12:21:25",
+        "file_size": "163086",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "56",
+        "asset_id": "NF-CA-1751718085",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751718085_detail_1751718085_686918c5093db.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:21:25",
+        "file_size": "146188",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "57",
+        "asset_id": "NF-CA-1751718085",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751718085_condition_1751718085_686918c50a32b.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 12:21:25",
+        "file_size": "149164",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "58",
+        "asset_id": "CAM003",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751718236_main_1751718236_6869195c46093.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 12:23:56",
+        "file_size": "145047",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "59",
+        "asset_id": "CAM003",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751718236_detail_1751718236_6869195c46a13.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:23:56",
+        "file_size": "144879",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "60",
+        "asset_id": "CAM003",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751718236_detail_1751718236_6869195c472c0.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:23:56",
+        "file_size": "216413",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "61",
+        "asset_id": "CAM003",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751718236_serial_1751718236_6869195c47eaf.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 12:23:56",
+        "file_size": "146858",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "62",
+        "asset_id": "CAM003",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751718236_condition_1751718236_6869195c488c4.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 12:23:56",
+        "file_size": "143636",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "63",
+        "asset_id": "NF-LE-1751718425",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751718425_main_1751718425_68691a19c04c2.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 12:27:05",
+        "file_size": "134049",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "64",
+        "asset_id": "NF-LE-1751718425",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751718425_detail_1751718425_68691a19c2943.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:27:05",
+        "file_size": "152979",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "65",
+        "asset_id": "NF-LE-1751718425",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751718425_serial_1751718425_68691a19c44b0.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 12:27:05",
+        "file_size": "167846",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "66",
+        "asset_id": "NF-LE-1751718425",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751718425_condition_1751718425_68691a19c500a.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 12:27:05",
+        "file_size": "132808",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "67",
+        "asset_id": "NF-CA-1751718607",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751718607_main_1751718607_68691acf535e0.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 12:30:07",
+        "file_size": "179120",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "68",
+        "asset_id": "NF-CA-1751718607",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751718607_detail_1751718607_68691acf54f60.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:30:07",
+        "file_size": "123568",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "69",
+        "asset_id": "NF-CA-1751718607",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751718607_serial_1751718607_68691acf55d20.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 12:30:07",
+        "file_size": "140845",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "70",
+        "asset_id": "NF-CA-1751718607",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751718607_condition_1751718607_68691acf569bc.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 12:30:07",
+        "file_size": "136273",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "71",
+        "asset_id": "LEN017",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751718827_main_1751718827_68691bab52b48.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 12:33:47",
+        "file_size": "135945",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "72",
+        "asset_id": "LEN017",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751718827_detail_1751718827_68691bab54369.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:33:47",
+        "file_size": "133260",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "73",
+        "asset_id": "LEN017",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751718827_condition_1751718827_68691bab556f8.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 12:33:47",
+        "file_size": "136356",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "74",
+        "asset_id": "LEN017",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751718827_serial_1751718827_68691bab57b2d.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 12:33:47",
+        "file_size": "116352",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "75",
+        "asset_id": "CAM004",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751718840_main_1751718840_68691bb828938.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 12:34:00",
+        "file_size": "193300",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "76",
+        "asset_id": "CAM004",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751718840_main_1751718840_68691bb82b2b7.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 12:34:00",
+        "file_size": "195505",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "77",
+        "asset_id": "CAM004",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751718840_detail_1751718840_68691bb82cea0.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:34:00",
+        "file_size": "187344",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "78",
+        "asset_id": "CAM004",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751718840_serial_1751718840_68691bb82f594.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 12:34:00",
+        "file_size": "146584",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "79",
+        "asset_id": "CAM004",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751718840_condition_1751718840_68691bb8303d3.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 12:34:00",
+        "file_size": "167642",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "80",
+        "asset_id": "LEN018",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751719178_main_1751719178_68691d0a0d87d.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 12:39:38",
+        "file_size": "148560",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "81",
+        "asset_id": "LEN018",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751719178_detail_1751719178_68691d0a0e5f5.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:39:38",
+        "file_size": "108037",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "82",
+        "asset_id": "LEN018",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751719178_detail_1751719178_68691d0a0ef23.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:39:38",
+        "file_size": "120281",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "83",
+        "asset_id": "LEN018",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751719178_serial_1751719178_68691d0a0f847.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 12:39:38",
+        "file_size": "91548",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "84",
+        "asset_id": "LEN018",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751719178_condition_1751719178_68691d0a101f5.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 12:39:38",
+        "file_size": "118619",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "85",
+        "asset_id": "NF-CA-1751719521",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751719521_main_1751719521_68691e61966b2.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 12:45:21",
+        "file_size": "170366",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "86",
+        "asset_id": "NF-CA-1751719521",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751719521_detail_1751719521_68691e619b37d.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:45:21",
+        "file_size": "162543",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "87",
+        "asset_id": "NF-CA-1751719521",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751719521_detail_1751719521_68691e619c3eb.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:45:21",
+        "file_size": "195480",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "88",
+        "asset_id": "NF-CA-1751719521",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751719521_detail_1751719521_68691e619f88a.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:45:21",
+        "file_size": "159479",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "89",
+        "asset_id": "NF-CA-1751719521",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751719521_serial_1751719521_68691e61a09d4.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 12:45:21",
+        "file_size": "150263",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "90",
+        "asset_id": "NF-CA-1751719521",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751719521_condition_1751719521_68691e61a1b58.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 12:45:21",
+        "file_size": "161189",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "91",
+        "asset_id": "NF-CA-1751719536",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751719536_main_1751719536_68691e70e3559.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 12:45:36",
+        "file_size": "179120",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "92",
+        "asset_id": "NF-CA-1751719536",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751719536_detail_1751719536_68691e70e42d0.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:45:36",
+        "file_size": "123568",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "93",
+        "asset_id": "NF-CA-1751719536",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751719536_serial_1751719536_68691e70e4e76.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 12:45:36",
+        "file_size": "140845",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "94",
+        "asset_id": "NF-CA-1751719536",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751719536_condition_1751719536_68691e70e59ea.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 12:45:36",
+        "file_size": "136273",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "95",
+        "asset_id": "NF-CA-1751719653",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751719653_main_1751719653_68691ee5aed7c.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 12:47:33",
+        "file_size": "175918",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "96",
+        "asset_id": "NF-CA-1751719653",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751719653_detail_1751719653_68691ee5afbac.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:47:33",
+        "file_size": "176038",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "97",
+        "asset_id": "NF-CA-1751719653",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751719653_detail_1751719653_68691ee5b0a99.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:47:33",
+        "file_size": "173901",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "98",
+        "asset_id": "NF-CA-1751719653",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751719653_detail_1751719653_68691ee5b1924.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:47:33",
+        "file_size": "167319",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "99",
+        "asset_id": "NF-CA-1751719653",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751719653_serial_1751719653_68691ee5b248e.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 12:47:33",
+        "file_size": "132644",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "100",
+        "asset_id": "NF-CA-1751719653",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751719653_condition_1751719653_68691ee5b321e.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 12:47:33",
+        "file_size": "199468",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "101",
+        "asset_id": "NF-LE-1751719807",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751719807_main_1751719807_68691f7f88001.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 12:50:07",
+        "file_size": "86485",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "102",
+        "asset_id": "NF-LE-1751719807",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751719807_detail_1751719807_68691f7f8864e.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:50:07",
+        "file_size": "102143",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "103",
+        "asset_id": "NF-LE-1751719807",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751719807_detail_1751719807_68691f7f88e8f.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:50:07",
+        "file_size": "97991",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "104",
+        "asset_id": "NF-LE-1751719807",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751719807_serial_1751719807_68691f7f89a1c.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 12:50:07",
+        "file_size": "108646",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "105",
+        "asset_id": "NF-LE-1751720043",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751720043_main_1751720043_6869206bac1b3.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 12:54:03",
+        "file_size": "89954",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "106",
+        "asset_id": "NF-LE-1751720043",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751720043_detail_1751720043_6869206bb19df.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:54:03",
+        "file_size": "98436",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "107",
+        "asset_id": "NF-LE-1751720043",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751720043_detail_1751720043_6869206bb31e1.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 12:54:03",
+        "file_size": "107829",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "108",
+        "asset_id": "NF-LE-1751720043",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751720043_serial_1751720043_6869206bb457d.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 12:54:03",
+        "file_size": "118047",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "109",
+        "asset_id": "NF-LE-1751720043",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751720043_condition_1751720043_6869206bb7611.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 12:54:03",
+        "file_size": "114931",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "110",
+        "asset_id": "NF-LE-1751720502",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751720502_main_1751720502_6869223651a6e.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 13:01:42",
+        "file_size": "90728",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "111",
+        "asset_id": "NF-LE-1751720502",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751720502_detail_1751720502_6869223652611.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 13:01:42",
+        "file_size": "108142",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "112",
+        "asset_id": "NF-LE-1751720502",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751720502_detail_1751720502_686922365355c.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 13:01:42",
+        "file_size": "125097",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "113",
+        "asset_id": "NF-LE-1751720502",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751720502_serial_1751720502_6869223653f16.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 13:01:42",
+        "file_size": "110168",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "114",
+        "asset_id": "NF-CA-1751720802",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751720802_main_1751720802_686923624d402.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 13:06:42",
+        "file_size": "142758",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "115",
+        "asset_id": "NF-CA-1751720802",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751720802_detail_1751720802_686923624eed9.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 13:06:42",
+        "file_size": "137724",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "116",
+        "asset_id": "NF-CA-1751720802",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751720802_detail_1751720802_686923624ff98.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 13:06:42",
+        "file_size": "148388",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "117",
+        "asset_id": "NF-CA-1751720802",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751720802_detail_1751720802_6869236250e6a.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 13:06:42",
+        "file_size": "142333",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "118",
+        "asset_id": "NF-CA-1751720802",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751720802_detail_1751720802_6869236252e24.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 13:06:42",
+        "file_size": "166994",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "119",
+        "asset_id": "NF-CA-1751720802",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751720802_condition_1751720802_686923625424b.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 13:06:42",
+        "file_size": "177630",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "120",
+        "asset_id": "NF-CA-1751720802",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751720802_condition_1751720802_686923625526f.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 13:06:42",
+        "file_size": "167132",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "121",
+        "asset_id": "NF-LE-1751720870",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751720870_main_1751720870_686923a6d4b3f.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 13:07:50",
+        "file_size": "122403",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "122",
+        "asset_id": "NF-LE-1751720870",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751720870_detail_1751720870_686923a6d599c.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 13:07:50",
+        "file_size": "120747",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "123",
+        "asset_id": "NF-LE-1751720870",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751720870_detail_1751720870_686923a6d6632.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 13:07:50",
+        "file_size": "129219",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "124",
+        "asset_id": "NF-LE-1751720870",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751720870_serial_1751720870_686923a6d7139.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 13:07:50",
+        "file_size": "131797",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "125",
+        "asset_id": "NF-LE-1751720870",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751720870_condition_1751720870_686923a6d7b1b.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 13:07:50",
+        "file_size": "127388",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "126",
+        "asset_id": "LEN005",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751721046_main_1751721046_68692456d2a96.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 13:10:46",
+        "file_size": "95104",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "127",
+        "asset_id": "LEN005",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751721046_detail_1751721046_68692456d3404.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 13:10:46",
+        "file_size": "120646",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "128",
+        "asset_id": "LEN005",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751721046_serial_1751721046_68692456d3cfa.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 13:10:46",
+        "file_size": "117592",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "129",
+        "asset_id": "LEN005",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751721046_condition_1751721046_68692456d45d5.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 13:10:46",
+        "file_size": "120190",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "130",
+        "asset_id": "NF-CA-1751721089",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751721089_main_1751721089_6869248170b24.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 13:11:29",
+        "file_size": "140899",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "131",
+        "asset_id": "NF-CA-1751721089",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751721089_detail_1751721089_6869248172057.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 13:11:29",
+        "file_size": "152913",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "132",
+        "asset_id": "NF-CA-1751721089",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751721089_serial_1751721089_686924817335f.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 13:11:29",
+        "file_size": "127206",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "133",
+        "asset_id": "NF-CA-1751721089",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751721089_condition_1751721089_68692481741df.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 13:11:29",
+        "file_size": "141428",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "134",
+        "asset_id": "NF-LE-1751721311",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751721311_main_1751721311_6869255f9b58b.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 13:15:11",
+        "file_size": "117692",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "135",
+        "asset_id": "NF-LE-1751721311",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751721311_detail_1751721311_6869255f9c19e.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 13:15:11",
+        "file_size": "141214",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "136",
+        "asset_id": "NF-LE-1751721311",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751721311_detail_1751721311_6869255f9cc7f.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 13:15:11",
+        "file_size": "120243",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "137",
+        "asset_id": "NF-LE-1751721311",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751721311_serial_1751721311_6869255f9d6e7.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 13:15:11",
+        "file_size": "141956",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "138",
+        "asset_id": "NF-LE-1751721311",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751721311_condition_1751721311_6869255f9e0dd.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 13:15:11",
+        "file_size": "126373",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "139",
+        "asset_id": "LEN019",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751721542_main_1751721542_686926468d5d1.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 13:19:02",
+        "file_size": "108582",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "140",
+        "asset_id": "LEN019",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751721542_detail_1751721542_686926468e007.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 13:19:02",
+        "file_size": "95295",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "141",
+        "asset_id": "LEN019",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751721542_serial_1751721542_6869264692c91.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 13:19:02",
+        "file_size": "109037",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "142",
+        "asset_id": "LEN019",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751721542_condition_1751721542_6869264693af6.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 13:19:02",
+        "file_size": "104650",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "143",
+        "asset_id": "NF-AU-1751721700",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751721700_main_1751721700_686926e4ca192.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 13:21:40",
+        "file_size": "143270",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "144",
+        "asset_id": "NF-AU-1751721700",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751721700_detail_1751721700_686926e4cb188.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 13:21:40",
+        "file_size": "190515",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "145",
+        "asset_id": "NF-AU-1751721700",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751721700_serial_1751721700_686926e4cc0d6.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 13:21:40",
+        "file_size": "152603",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "146",
+        "asset_id": "NF-AU-1751721700",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751721700_condition_1751721700_686926e4ccc76.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 13:21:40",
+        "file_size": "139691",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "147",
+        "asset_id": "LEN020",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751721941_main_1751721941_686927d5661f3.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 13:25:41",
+        "file_size": "99258",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "148",
+        "asset_id": "LEN020",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751721941_detail_1751721941_686927d56767a.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 13:25:41",
+        "file_size": "104492",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "149",
+        "asset_id": "LEN020",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751721941_detail_1751721941_686927d568e4f.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 13:25:41",
+        "file_size": "125263",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "150",
+        "asset_id": "LEN020",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751721941_serial_1751721941_686927d5698b4.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 13:25:41",
+        "file_size": "95870",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "151",
+        "asset_id": "AUD001",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751721967_main_1751721967_686927ef412ff.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 13:26:07",
+        "file_size": "158591",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "152",
+        "asset_id": "AUD001",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751721967_detail_1751721967_686927ef4208b.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 13:26:07",
+        "file_size": "165498",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "153",
+        "asset_id": "AUD001",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751721967_detail_1751721967_686927ef42d52.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 13:26:07",
+        "file_size": "128012",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "154",
+        "asset_id": "AUD001",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751721967_detail_1751721967_686927ef4377e.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 13:26:07",
+        "file_size": "141376",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "155",
+        "asset_id": "AUD001",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751721967_serial_1751721967_686927ef44e3b.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 13:26:07",
+        "file_size": "178640",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "156",
+        "asset_id": "AUD001",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751721967_condition_1751721967_686927ef48759.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 13:26:07",
+        "file_size": "151566",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "157",
+        "asset_id": "NF-LE-1751722193",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751722193_main_1751722193_686928d15986a.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 13:29:53",
+        "file_size": "120086",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "158",
+        "asset_id": "NF-LE-1751722193",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751722193_detail_1751722193_686928d15adbc.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 13:29:53",
+        "file_size": "118993",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "159",
+        "asset_id": "NF-LE-1751722193",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751722193_detail_1751722193_686928d15bb64.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 13:29:53",
+        "file_size": "119371",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "160",
+        "asset_id": "NF-LE-1751722193",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751722193_serial_1751722193_686928d15c856.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 13:29:53",
+        "file_size": "115203",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "161",
+        "asset_id": "NF-LE-1751722193",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751722193_condition_1751722193_686928d15d5e9.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 13:29:53",
+        "file_size": "123357",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "162",
+        "asset_id": "NF-AU-1751722301",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751722301_main_1751722301_6869293da3ffb.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 13:31:41",
+        "file_size": "254110",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "163",
+        "asset_id": "NF-AU-1751722301",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751722301_detail_1751722301_6869293da5b5d.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 13:31:41",
+        "file_size": "230242",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "164",
+        "asset_id": "NF-AU-1751722301",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751722301_condition_1751722301_6869293da6c1f.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 13:31:41",
+        "file_size": "249099",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "165",
+        "asset_id": "AUD002",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751722496_main_1751722496_68692a008a9da.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 13:34:56",
+        "file_size": "93962",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "166",
+        "asset_id": "AUD002",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751722496_detail_1751722496_68692a008db80.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-05 13:34:56",
+        "file_size": "134201",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "167",
+        "asset_id": "AUD002",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751722496_serial_1751722496_68692a008e506.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-05 13:34:56",
+        "file_size": "125853",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "168",
+        "asset_id": "AUD002",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751722496_condition_1751722496_68692a008ec8e.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-05 13:34:56",
+        "file_size": "143968",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "169",
+        "asset_id": "NF-LI-1751722669",
+        "photo_path": "uploads\/asset_photos\/NF-LI-1751722669_main_1751722669_68692aad464e4.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-05 13:37:49",
+        "file_size": "170073",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "170",
+        "asset_id": "LEN006",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805056_main_1751805056_686a6c8074607.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 12:30:56",
+        "file_size": "185031",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "171",
+        "asset_id": "LEN006",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805056_detail_1751805056_686a6c8075c8f.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 12:30:56",
+        "file_size": "161504",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "172",
+        "asset_id": "LEN006",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805056_detail_1751805056_686a6c807696e.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 12:30:56",
+        "file_size": "146316",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "173",
+        "asset_id": "LEN006",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805056_serial_1751805056_686a6c807761d.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 12:30:56",
+        "file_size": "152107",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "174",
+        "asset_id": "LEN006",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805056_condition_1751805056_686a6c807821c.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 12:30:56",
+        "file_size": "183424",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "175",
+        "asset_id": "LEN007",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805175_main_1751805175_686a6cf7bddba.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 12:32:55",
+        "file_size": "174198",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "176",
+        "asset_id": "LEN007",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805175_detail_1751805175_686a6cf7be9f1.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 12:32:55",
+        "file_size": "139412",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "177",
+        "asset_id": "LEN007",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805175_serial_1751805175_686a6cf7bf58b.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 12:32:55",
+        "file_size": "135691",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "178",
+        "asset_id": "LEN007",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805175_condition_1751805175_686a6cf7c000e.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 12:32:55",
+        "file_size": "165497",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "179",
+        "asset_id": "LEN008",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805511_main_1751805511_686a6e470f791.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 12:38:31",
+        "file_size": "177908",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "180",
+        "asset_id": "LEN008",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805511_detail_1751805511_686a6e4710824.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 12:38:31",
+        "file_size": "165217",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "181",
+        "asset_id": "LEN008",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805511_detail_1751805511_686a6e47114a1.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 12:38:31",
+        "file_size": "128847",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "182",
+        "asset_id": "LEN008",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805511_serial_1751805511_686a6e4711f81.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 12:38:31",
+        "file_size": "144905",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "183",
+        "asset_id": "LEN008",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805511_condition_1751805511_686a6e4712d3a.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 12:38:31",
+        "file_size": "178957",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "184",
+        "asset_id": "LEN009",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805715_main_1751805715_686a6f1307eb3.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 12:41:55",
+        "file_size": "175569",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "185",
+        "asset_id": "LEN009",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805715_detail_1751805715_686a6f1309033.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 12:41:55",
+        "file_size": "178447",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "186",
+        "asset_id": "LEN009",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805715_detail_1751805715_686a6f1309e72.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 12:41:55",
+        "file_size": "174407",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "187",
+        "asset_id": "LEN009",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805715_serial_1751805715_686a6f130aa25.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 12:41:55",
+        "file_size": "142129",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "188",
+        "asset_id": "LEN009",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805715_condition_1751805715_686a6f130b873.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 12:41:55",
+        "file_size": "180395",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "189",
+        "asset_id": "LEN010",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805855_main_1751805855_686a6f9f1ad65.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 12:44:15",
+        "file_size": "171057",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "190",
+        "asset_id": "LEN010",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805855_detail_1751805855_686a6f9f1b88e.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 12:44:15",
+        "file_size": "167187",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "191",
+        "asset_id": "LEN010",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805855_detail_1751805855_686a6f9f1c0a9.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 12:44:15",
+        "file_size": "145094",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "192",
+        "asset_id": "LEN010",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805855_serial_1751805855_686a6f9f1cac9.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 12:44:15",
+        "file_size": "137654",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "193",
+        "asset_id": "LEN010",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805855_condition_1751805855_686a6f9f1d562.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 12:44:15",
+        "file_size": "191865",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "194",
+        "asset_id": "LEN021",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805962_main_1751805962_686a700abaa8e.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 12:46:02",
+        "file_size": "167280",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "195",
+        "asset_id": "LEN021",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805962_detail_1751805962_686a700abb6e9.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 12:46:02",
+        "file_size": "159461",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "196",
+        "asset_id": "LEN021",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805962_serial_1751805962_686a700abc13d.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 12:46:02",
+        "file_size": "144179",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "197",
+        "asset_id": "LEN021",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751805962_condition_1751805962_686a700abcc0a.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 12:46:02",
+        "file_size": "172113",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "198",
+        "asset_id": "LEN022",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806080_main_1751806080_686a7080c6f56.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 12:48:00",
+        "file_size": "172919",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "199",
+        "asset_id": "LEN022",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806080_detail_1751806080_686a7080c7def.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 12:48:00",
+        "file_size": "198507",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "200",
+        "asset_id": "LEN022",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806080_serial_1751806080_686a7080c862d.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 12:48:00",
+        "file_size": "137013",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "201",
+        "asset_id": "LEN022",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806080_condition_1751806080_686a7080c8e84.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 12:48:00",
+        "file_size": "188401",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "202",
+        "asset_id": "LEN011",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806202_main_1751806202_686a70fab7cb2.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 12:50:02",
+        "file_size": "164553",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "203",
+        "asset_id": "LEN011",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806202_detail_1751806202_686a70fab97ac.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 12:50:02",
+        "file_size": "157391",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "204",
+        "asset_id": "LEN011",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806202_detail_1751806202_686a70faba890.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 12:50:02",
+        "file_size": "124636",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "205",
+        "asset_id": "LEN011",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806202_serial_1751806202_686a70fabc964.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 12:50:02",
+        "file_size": "125535",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "206",
+        "asset_id": "LEN011",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806202_condition_1751806202_686a70fabdb48.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 12:50:02",
+        "file_size": "175903",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "207",
+        "asset_id": "LEN012",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806353_main_1751806353_686a719148cd2.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 12:52:33",
+        "file_size": "170981",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "208",
+        "asset_id": "LEN012",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806353_detail_1751806353_686a7191497ab.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 12:52:33",
+        "file_size": "178909",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "209",
+        "asset_id": "LEN012",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806353_detail_1751806353_686a71914a345.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 12:52:33",
+        "file_size": "153616",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "210",
+        "asset_id": "LEN012",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806353_serial_1751806353_686a71914ad42.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 12:52:33",
+        "file_size": "144001",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "211",
+        "asset_id": "LEN012",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806353_condition_1751806353_686a71914b6a8.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 12:52:33",
+        "file_size": "183859",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "212",
+        "asset_id": "LEN023",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806601_main_1751806601_686a728917178.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 12:56:41",
+        "file_size": "182894",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "213",
+        "asset_id": "LEN023",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806601_detail_1751806601_686a728917e2f.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 12:56:41",
+        "file_size": "208224",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "214",
+        "asset_id": "LEN023",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806601_detail_1751806601_686a728918bd3.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 12:56:41",
+        "file_size": "189877",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "215",
+        "asset_id": "LEN023",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806601_serial_1751806601_686a728919432.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 12:56:41",
+        "file_size": "139728",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "216",
+        "asset_id": "LEN023",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806601_condition_1751806601_686a72891a097.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 12:56:41",
+        "file_size": "189085",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "217",
+        "asset_id": "LEN024",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806871_main_1751806871_686a7397bb73c.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 13:01:11",
+        "file_size": "190830",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "218",
+        "asset_id": "LEN024",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806871_detail_1751806871_686a7397bd141.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 13:01:11",
+        "file_size": "181039",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "219",
+        "asset_id": "LEN024",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806871_detail_1751806871_686a7397c3c52.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 13:01:11",
+        "file_size": "180013",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "220",
+        "asset_id": "LEN013",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806974_main_1751806974_686a73fed3752.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 13:02:54",
+        "file_size": "182447",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "221",
+        "asset_id": "LEN013",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806974_detail_1751806974_686a73fed7b78.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 13:02:54",
+        "file_size": "159925",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "222",
+        "asset_id": "LEN013",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806974_serial_1751806974_686a73fed8704.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 13:02:54",
+        "file_size": "157606",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "223",
+        "asset_id": "LEN013",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751806974_condition_1751806974_686a73fed922b.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 13:02:54",
+        "file_size": "156715",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "224",
+        "asset_id": "LEN014",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751807866_main_1751807866_686a777aa56f3.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 13:17:46",
+        "file_size": "189581",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "225",
+        "asset_id": "LEN014",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751807866_detail_1751807866_686a777aa66b9.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 13:17:46",
+        "file_size": "178969",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "226",
+        "asset_id": "LEN014",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751807866_serial_1751807866_686a777aa739a.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 13:17:46",
+        "file_size": "138078",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "227",
+        "asset_id": "LEN014",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751807866_condition_1751807866_686a777aa7ec5.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 13:17:46",
+        "file_size": "161702",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "228",
+        "asset_id": "LEN015",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751807981_main_1751807981_686a77edbcef4.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 13:19:41",
+        "file_size": "182216",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "229",
+        "asset_id": "LEN015",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751807981_detail_1751807981_686a77edbdcf9.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 13:19:41",
+        "file_size": "156291",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "230",
+        "asset_id": "LEN016",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751808089_main_1751808089_686a7859c17f7.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 13:21:29",
+        "file_size": "148519",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "231",
+        "asset_id": "LEN016",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751808089_detail_1751808089_686a7859c263e.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 13:21:29",
+        "file_size": "145634",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "232",
+        "asset_id": "LEN016",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751808089_detail_1751808089_686a7859c33d2.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 13:21:29",
+        "file_size": "151862",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "233",
+        "asset_id": "LEN016",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751808089_serial_1751808089_686a7859c438d.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 13:21:29",
+        "file_size": "143400",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "234",
+        "asset_id": "LEN016",
+        "photo_path": "uploads\/asset_photos\/NF-LE-1751808089_condition_1751808089_686a7859c4f6b.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 13:21:29",
+        "file_size": "184912",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "235",
+        "asset_id": "CAM005",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751808833_main_1751808833_686a7b411dd25.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 13:33:53",
+        "file_size": "188105",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "236",
+        "asset_id": "CAM005",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751808833_detail_1751808833_686a7b411ea91.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 13:33:53",
+        "file_size": "117363",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "237",
+        "asset_id": "CAM005",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751808833_detail_1751808833_686a7b411f654.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 13:33:53",
+        "file_size": "176596",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "238",
+        "asset_id": "CAM005",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751808833_detail_1751808833_686a7b4120302.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 13:33:53",
+        "file_size": "137072",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "239",
+        "asset_id": "CAM005",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751808833_serial_1751808833_686a7b4120ec8.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 13:33:53",
+        "file_size": "150722",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "240",
+        "asset_id": "CAM005",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751808833_condition_1751808833_686a7b4121b2c.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 13:33:53",
+        "file_size": "166605",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "241",
+        "asset_id": "CAM006",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751810011_serial_1751810011_686a7fdbde9b2.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 13:53:31",
+        "file_size": "129885",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "242",
+        "asset_id": "CAM006",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751810011_main_1751810011_686a7fdbdfa25.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 13:53:31",
+        "file_size": "198679",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "243",
+        "asset_id": "CAM006",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751810011_detail_1751810011_686a7fdbe0d9a.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 13:53:31",
+        "file_size": "176312",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "244",
+        "asset_id": "CAM006",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751810011_detail_1751810011_686a7fdbe2017.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 13:53:31",
+        "file_size": "129504",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "245",
+        "asset_id": "CAM006",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751810011_detail_1751810011_686a7fdbe3026.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 13:53:31",
+        "file_size": "143930",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "246",
+        "asset_id": "CAM006",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751810011_condition_1751810011_686a7fdbe45d2.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 13:53:31",
+        "file_size": "215395",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "247",
+        "asset_id": "CAM007",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751810752_main_1751810752_686a82c0cf8b4.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 14:05:52",
+        "file_size": "159076",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "248",
+        "asset_id": "CAM007",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751810752_detail_1751810752_686a82c0d3b6a.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 14:05:52",
+        "file_size": "187740",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "249",
+        "asset_id": "CAM007",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751810752_serial_1751810752_686a82c0d61aa.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 14:05:52",
+        "file_size": "136996",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "250",
+        "asset_id": "CAM007",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751810752_condition_1751810752_686a82c0d9017.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 14:05:52",
+        "file_size": "155622",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "251",
+        "asset_id": "AUD003",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751811280_main_1751811280_686a84d0eb90a.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 14:14:40",
+        "file_size": "181444",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "252",
+        "asset_id": "AUD003",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751811280_detail_1751811280_686a84d0ecd90.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 14:14:40",
+        "file_size": "151898",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "253",
+        "asset_id": "AUD003",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751811280_detail_1751811280_686a84d0eedc5.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 14:14:40",
+        "file_size": "128058",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "254",
+        "asset_id": "AUD003",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751811280_serial_1751811280_686a84d0efc20.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 14:14:40",
+        "file_size": "136538",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "255",
+        "asset_id": "AUD003",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751811280_condition_1751811280_686a84d0f13b7.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 14:14:40",
+        "file_size": "161936",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "256",
+        "asset_id": "CAM008",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751812001_main_1751812001_686a87a1755c1.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 14:26:41",
+        "file_size": "125357",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "257",
+        "asset_id": "CAM008",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751812001_detail_1751812001_686a87a17603b.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 14:26:41",
+        "file_size": "98284",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "258",
+        "asset_id": "CAM008",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751812001_detail_1751812001_686a87a177269.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 14:26:41",
+        "file_size": "112399",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "259",
+        "asset_id": "CAM008",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751812001_detail_1751812001_686a87a177c31.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 14:26:41",
+        "file_size": "103137",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "260",
+        "asset_id": "CAM008",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751812001_detail_1751812001_686a87a178832.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 14:26:41",
+        "file_size": "120391",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "261",
+        "asset_id": "CAM008",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751812001_serial_1751812001_686a87a179453.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 14:26:41",
+        "file_size": "157487",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "262",
+        "asset_id": "AUD004",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812434_main_1751812434_686a8952ace44.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 14:33:54",
+        "file_size": "143059",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "263",
+        "asset_id": "AUD004",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812434_main_1751812434_686a8952aef58.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 14:33:54",
+        "file_size": "162255",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "264",
+        "asset_id": "AUD004",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812434_detail_1751812434_686a8952afaa2.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 14:33:54",
+        "file_size": "163325",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "265",
+        "asset_id": "AUD004",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812434_detail_1751812434_686a8952b0a05.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 14:33:54",
+        "file_size": "160821",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "266",
+        "asset_id": "AUD004",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812434_serial_1751812434_686a8952b12dc.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 14:33:54",
+        "file_size": "125354",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "267",
+        "asset_id": "AUD004",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812434_condition_1751812434_686a8952b1d3f.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 14:33:54",
+        "file_size": "172465",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "268",
+        "asset_id": "AUD005",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812563_main_1751812563_686a89d3a3550.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 14:36:03",
+        "file_size": "139591",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "269",
+        "asset_id": "AUD005",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812563_detail_1751812563_686a89d3a61d9.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 14:36:03",
+        "file_size": "130228",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "270",
+        "asset_id": "AUD005",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812563_detail_1751812563_686a89d3a6ba7.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 14:36:03",
+        "file_size": "135956",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "271",
+        "asset_id": "AUD005",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812563_serial_1751812563_686a89d3a8410.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 14:36:03",
+        "file_size": "126389",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "272",
+        "asset_id": "AUD005",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812563_condition_1751812563_686a89d3aa852.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 14:36:03",
+        "file_size": "132085",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "273",
+        "asset_id": "AUD006",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812597_main_1751812597_686a89f530155.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 14:36:37",
+        "file_size": "128089",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "274",
+        "asset_id": "AUD006",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812597_detail_1751812597_686a89f530d0a.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 14:36:37",
+        "file_size": "140825",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "275",
+        "asset_id": "AUD006",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812597_serial_1751812597_686a89f53171f.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 14:36:37",
+        "file_size": "125814",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "276",
+        "asset_id": "AUD006",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812597_condition_1751812597_686a89f531e99.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 14:36:37",
+        "file_size": "151792",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "277",
+        "asset_id": "AUD007",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812694_main_1751812694_686a8a560b350.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 14:38:14",
+        "file_size": "122075",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "278",
+        "asset_id": "AUD007",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812694_detail_1751812694_686a8a560bfa8.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 14:38:14",
+        "file_size": "116538",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "279",
+        "asset_id": "AUD007",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812694_condition_1751812694_686a8a560c6bb.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 14:38:14",
+        "file_size": "135116",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "280",
+        "asset_id": "AUD008",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812699_main_1751812699_686a8a5baa329.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 14:38:19",
+        "file_size": "117634",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "281",
+        "asset_id": "AUD008",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812699_main_1751812699_686a8a5baae10.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 14:38:19",
+        "file_size": "120424",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "282",
+        "asset_id": "AUD008",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812699_main_1751812699_686a8a5bab85b.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 14:38:19",
+        "file_size": "127377",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "283",
+        "asset_id": "AUD008",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812699_serial_1751812699_686a8a5bac1c5.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 14:38:19",
+        "file_size": "128026",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "284",
+        "asset_id": "AUD009",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812807_main_1751812807_686a8ac7b96e3.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 14:40:07",
+        "file_size": "126821",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "285",
+        "asset_id": "AUD009",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812807_detail_1751812807_686a8ac7ba482.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 14:40:07",
+        "file_size": "109276",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "286",
+        "asset_id": "AUD009",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812807_serial_1751812807_686a8ac7bae47.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 14:40:07",
+        "file_size": "102775",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "287",
+        "asset_id": "AUD009",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751812807_condition_1751812807_686a8ac7bb713.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 14:40:07",
+        "file_size": "84894",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "288",
+        "asset_id": "AUD010",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751813008_main_1751813008_686a8b9093777.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 14:43:28",
+        "file_size": "119286",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "289",
+        "asset_id": "MON001",
+        "photo_path": "uploads\/asset_photos\/NF-MO-1751813045_main_1751813045_686a8bb54752b.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 14:44:05",
+        "file_size": "143929",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "290",
+        "asset_id": "MON001",
+        "photo_path": "uploads\/asset_photos\/NF-MO-1751813045_main_1751813045_686a8bb548235.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 14:44:05",
+        "file_size": "133242",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "291",
+        "asset_id": "MON001",
+        "photo_path": "uploads\/asset_photos\/NF-MO-1751813045_detail_1751813045_686a8bb548daa.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 14:44:05",
+        "file_size": "126144",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "292",
+        "asset_id": "MON001",
+        "photo_path": "uploads\/asset_photos\/NF-MO-1751813045_serial_1751813045_686a8bb5499e1.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 14:44:05",
+        "file_size": "101706",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "293",
+        "asset_id": "AUD011",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751813888_main_1751813888_686a8f0060af7.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 14:58:08",
+        "file_size": "117494",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "294",
+        "asset_id": "AUD011",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751813888_detail_1751813888_686a8f0061edf.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 14:58:08",
+        "file_size": "98567",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "295",
+        "asset_id": "AUD011",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751813888_serial_1751813888_686a8f0062837.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 14:58:08",
+        "file_size": "111465",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "296",
+        "asset_id": "AUD011",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751813888_condition_1751813888_686a8f0062eff.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 14:58:08",
+        "file_size": "108720",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "297",
+        "asset_id": "AUD012",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751814086_main_1751814086_686a8fc649d20.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 15:01:26",
+        "file_size": "117909",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "298",
+        "asset_id": "AUD012",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751814086_detail_1751814086_686a8fc64a96f.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 15:01:26",
+        "file_size": "141750",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "299",
+        "asset_id": "AUD012",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751814086_detail_1751814086_686a8fc64b306.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 15:01:26",
+        "file_size": "104620",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "300",
+        "asset_id": "AUD012",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751814086_serial_1751814086_686a8fc64bbad.jpg",
+        "photo_type": "serial",
+        "upload_date": "2025-07-06 15:01:26",
+        "file_size": "93149",
+        "mime_type": "image\/jpeg",
+        "description": "Serial"
+    },
+    {
+        "id": "301",
+        "asset_id": "AUD012",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751814086_condition_1751814086_686a8fc64c367.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 15:01:26",
+        "file_size": "101754",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "302",
+        "asset_id": "AUD013",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751814185_main_1751814185_686a902930c0d.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 15:03:05",
+        "file_size": "134969",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "303",
+        "asset_id": "AUD013",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751814185_detail_1751814185_686a902932348.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 15:03:05",
+        "file_size": "109378",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "304",
+        "asset_id": "AUD013",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751814185_condition_1751814185_686a902932a58.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 15:03:05",
+        "file_size": "126852",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "305",
+        "asset_id": "AUD014",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751814251_main_1751814251_686a906bd5d23.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 15:04:11",
+        "file_size": "119963",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "306",
+        "asset_id": "AUD014",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751814251_detail_1751814251_686a906bd67dd.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 15:04:11",
+        "file_size": "111123",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "307",
+        "asset_id": "AUD014",
+        "photo_path": "uploads\/asset_photos\/NF-AU-1751814251_condition_1751814251_686a906bd7425.jpg",
+        "photo_type": "condition",
+        "upload_date": "2025-07-06 15:04:11",
+        "file_size": "121688",
+        "mime_type": "image\/jpeg",
+        "description": "Condition"
+    },
+    {
+        "id": "308",
+        "asset_id": "CAM009",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751814472_main_1751814472_686a91484ccc3.jpg",
+        "photo_type": "main",
+        "upload_date": "2025-07-06 15:07:52",
+        "file_size": "108655",
+        "mime_type": "image\/jpeg",
+        "description": "Main"
+    },
+    {
+        "id": "309",
+        "asset_id": "CAM009",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751814472_detail_1751814472_686a91484d480.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 15:07:52",
+        "file_size": "129314",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    },
+    {
+        "id": "310",
+        "asset_id": "CAM009",
+        "photo_path": "uploads\/asset_photos\/NF-CA-1751814472_detail_1751814472_686a91484ddb7.jpg",
+        "photo_type": "detail",
+        "upload_date": "2025-07-06 15:07:52",
+        "file_size": "111387",
+        "mime_type": "image\/jpeg",
+        "description": "Detail"
+    }
+]

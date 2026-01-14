@@ -1,0 +1,98 @@
+[
+    {
+        "id": "1",
+        "username": "admin",
+        "password": "$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC\/.og\/at2.uheWG\/igi",
+        "email": "admin@neofoxmedia.com",
+        "role": "admin",
+        "created_at": "2025-07-02 17:27:41"
+    },
+    {
+        "id": "2",
+        "username": "sumeet",
+        "password": "$2y$10$TP8TkFo1RqaPEDnjozt0s.P9KPPv7vnBNqTTGc9q2wtks3NMMp3hK",
+        "email": "sumeet@neofoxmedia.com",
+        "role": "team_member",
+        "created_at": "2025-07-02 18:54:38"
+    },
+    {
+        "id": "3",
+        "username": "rohan",
+        "password": "$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC\/.og\/at2.uheWG\/igi",
+        "email": "sood1992@gmail.com",
+        "role": "team_member",
+        "created_at": "2025-07-03 12:55:26"
+    },
+    {
+        "id": "4",
+        "username": "rishabh_sood",
+        "password": "$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC\/.og\/at2.uheWG\/igi",
+        "email": "sood1992@gmail.com",
+        "role": "team_member",
+        "created_at": "2025-07-03 19:09:34"
+    },
+    {
+        "id": "5",
+        "username": "shivam_taneja",
+        "password": "$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC\/.og\/at2.uheWG\/igi",
+        "email": "vinshivam0506@gmail.com",
+        "role": "team_member",
+        "created_at": "2025-07-03 19:09:34"
+    },
+    {
+        "id": "6",
+        "username": "sumeet_koneri",
+        "password": "$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC\/.og\/at2.uheWG\/igi",
+        "email": "konerisumeet3@gmail.com",
+        "role": "team_member",
+        "created_at": "2025-07-03 19:09:34"
+    },
+    {
+        "id": "7",
+        "username": "tanishq_kakkar",
+        "password": "$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC\/.og\/at2.uheWG\/igi",
+        "email": "kakkartanishq9212@gmail.com",
+        "role": "team_member",
+        "created_at": "2025-07-03 19:09:34"
+    },
+    {
+        "id": "8",
+        "username": "jaidev",
+        "password": "$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC\/.og\/at2.uheWG\/igi",
+        "email": "team@neofoxmedia.com",
+        "role": "team_member",
+        "created_at": "2025-07-03 19:09:34"
+    },
+    {
+        "id": "9",
+        "username": "sunil",
+        "password": "$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC\/.og\/at2.uheWG\/igi",
+        "email": "team@neofoxmedia.com",
+        "role": "team_member",
+        "created_at": "2025-07-03 19:09:34"
+    },
+    {
+        "id": "10",
+        "username": "yash",
+        "password": "$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC\/.og\/at2.uheWG\/igi",
+        "email": "team@neofoxmedia.com",
+        "role": "team_member",
+        "created_at": "2025-07-03 19:09:34"
+    },
+    {
+        "id": "20",
+        "username": "abhay",
+        "password": "$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC\/.og\/at2.uheWG\/igi",
+        "email": "abhay.santra007@gmail.com",
+        "role": "team_member",
+        "created_at": "2025-07-03 19:12:03"
+    },
+    {
+        "id": "21",
+        "username": "debangshu",
+        "password": "$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC\/.og\/at2.uheWG\/igi",
+        "email": "ronny142000@gmail.com",
+        "role": "team_member",
+        "created_at": "2025-07-03 19:12:03"
+    }
+]
