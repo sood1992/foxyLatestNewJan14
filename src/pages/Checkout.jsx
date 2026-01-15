@@ -338,7 +338,7 @@ export default function Checkout() {
                   <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-500" />
                   <input
                     type="text"
-                    placeholder="Search equipment to add..."
+                    placeholder="Search and click to add equipment..."
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                     onFocus={() => setShowAssetDropdown(true)}
