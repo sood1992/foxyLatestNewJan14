@@ -1,0 +1,48 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/$USER/public_html/foxy
+    # Build the React application
+    - /bin/cp -R dist/* $DEPLOYPATH/
+    # Copy API folder
+    - /bin/cp -R api $DEPLOYPATH/
+    # Set proper permissions for API data folder
+    - /bin/chmod 755 $DEPLOYPATH/api/data
+    - /bin/chmod 644 $DEPLOYPATH/api/data/*.json 2>/dev/null || true
+    # Create .htaccess if it doesn't exist
+    - |
+      cat > $DEPLOYPATH/.htaccess << 'HTACCESS'
+      # Enable RewriteEngine
+      RewriteEngine On
+
+      # Handle API requests
+      RewriteRule ^api/(.*)$ api/index.php [L,QSA]
+
+      # React Router - Handle client-side routing
+      RewriteBase /
+      RewriteCond %{REQUEST_FILENAME} !-f
+      RewriteCond %{REQUEST_FILENAME} !-d
+      RewriteCond %{REQUEST_URI} !^/api/
+      RewriteRule ^ index.html [L]
+
+      # Security Headers
+      <IfModule mod_headers.c>
+        Header set X-Content-Type-Options "nosniff"
+        Header set X-Frame-Options "SAMEORIGIN"
+        Header set X-XSS-Protection "1; mode=block"
+      </IfModule>
+
+      # Protect sensitive files
+      <FilesMatch "\.(json|php\.bak|env)$">
+        <IfModule mod_authz_core.c>
+          Require all denied
+        </IfModule>
+      </FilesMatch>
+
+      # Allow access to API index.php
+      <FilesMatch "^(index\.php)$">
+        <IfModule mod_authz_core.c>
+          Require all granted
+        </IfModule>
+      </FilesMatch>
+      HTACCESS

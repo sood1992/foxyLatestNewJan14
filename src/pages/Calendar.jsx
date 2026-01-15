@@ -13,7 +13,8 @@ import {
   Clock,
   X,
   Check,
-  AlertCircle
+  AlertCircle,
+  Search
 } from 'lucide-react'
 import { format, startOfMonth, endOfMonth, eachDayOfInterval, isSameMonth, isSameDay, addMonths, subMonths, parseISO, isWithinInterval, startOfDay, addDays } from 'date-fns'
 
@@ -372,8 +373,9 @@ function ReservationModal({ assets, reservations, selectedDate, onClose, onSave 
   const toast = useToast()
   const [saving, setSaving] = useState(false)
   const [searchQuery, setSearchQuery] = useState('')
+  const [selectedAssets, setSelectedAssets] = useState([])
+  const [showDropdown, setShowDropdown] = useState(false)
   const [form, setForm] = useState({
-    asset_id: '',
     reserved_by: '',
     start_date: selectedDate ? format(selectedDate, 'yyyy-MM-dd') : format(new Date(), 'yyyy-MM-dd'),
     end_date: selectedDate ? format(addDays(selectedDate, 1), 'yyyy-MM-dd') : format(addDays(new Date(), 1), 'yyyy-MM-dd'),
@@ -381,32 +383,46 @@ function ReservationModal({ assets, reservations, selectedDate, onClose, onSave 
   })
 
   const availableAssets = assets.filter(a =>
-    a.status === 'available' && (
+    a.status === 'available' &&
+    !selectedAssets.find(s => s.asset_id === a.asset_id) && (
       !searchQuery ||
       a.asset_name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       a.asset_id.toLowerCase().includes(searchQuery.toLowerCase())
     )
   )
 
-  const checkConflict = () => {
-    if (!form.asset_id || !form.start_date || !form.end_date) return false
+  const addAsset = (asset) => {
+    setSelectedAssets(prev => [...prev, asset])
+    setSearchQuery('')
+    setShowDropdown(false)
+  }
+
+  const removeAsset = (assetId) => {
+    setSelectedAssets(prev => prev.filter(a => a.asset_id !== assetId))
+  }
+
+  const checkConflicts = () => {
+    if (selectedAssets.length === 0 || !form.start_date || !form.end_date) return []
     const start = parseISO(form.start_date)
     const end = parseISO(form.end_date)
 
-    return reservations.some(res => {
-      if (res.asset_id !== form.asset_id || res.status === 'cancelled') return false
-      const resStart = parseISO(res.start_date)
-      const resEnd = parseISO(res.end_date)
-      return (start <= resEnd && end >= resStart)
+    return selectedAssets.filter(asset => {
+      return reservations.some(res => {
+        if (res.asset_id !== asset.asset_id || res.status === 'cancelled') return false
+        const resStart = parseISO(res.start_date)
+        const resEnd = parseISO(res.end_date)
+        return (start <= resEnd && end >= resStart)
+      })
     })
   }
 
-  const hasConflict = checkConflict()
+  const conflictingAssets = checkConflicts()
+  const hasConflict = conflictingAssets.length > 0
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    if (!form.asset_id) {
-      toast.error('Please select equipment')
+    if (selectedAssets.length === 0) {
+      toast.error('Please select at least one equipment')
       return
     }
     if (!form.reserved_by.trim()) {
@@ -414,14 +430,23 @@ function ReservationModal({ assets, reservations, selectedDate, onClose, onSave 
       return
     }
     if (hasConflict) {
-      toast.error('This equipment is already reserved for these dates')
+      toast.error('Some equipment is already reserved for these dates')
       return
     }
 
     setSaving(true)
     try {
-      await assetApi.createReservation(form)
-      toast.success('Reservation created successfully')
+      // Create reservation for each selected asset
+      for (const asset of selectedAssets) {
+        await assetApi.createReservation({
+          asset_id: asset.asset_id,
+          reserved_by: form.reserved_by,
+          start_date: form.start_date,
+          end_date: form.end_date,
+          purpose: form.purpose
+        })
+      }
+      toast.success(`${selectedAssets.length} reservation${selectedAssets.length > 1 ? 's' : ''} created successfully`)
       onSave()
     } catch (error) {
       toast.error(error.message || 'Failed to create reservation')
@@ -444,19 +469,78 @@ function ReservationModal({ assets, reservations, selectedDate, onClose, onSave 
 
         <form onSubmit={handleSubmit} className="p-6 space-y-4">
           <div>
-            <label className="block text-sm font-medium text-gray-300 mb-2">Equipment *</label>
-            <select
-              value={form.asset_id}
-              onChange={(e) => setForm({ ...form, asset_id: e.target.value })}
-              className="input-field"
-            >
-              <option value="">Select equipment...</option>
-              {availableAssets.map(asset => (
-                <option key={asset.asset_id} value={asset.asset_id}>
-                  {asset.asset_name} ({asset.asset_id})
-                </option>
-              ))}
-            </select>
+            <label className="block text-sm font-medium text-gray-300 mb-2">
+              Equipment * <span className="text-gray-500 font-normal">({selectedAssets.length} selected)</span>
+            </label>
+
+            {/* Selected Assets */}
+            {selectedAssets.length > 0 && (
+              <div className="mb-3 space-y-2">
+                {selectedAssets.map(asset => (
+                  <div
+                    key={asset.asset_id}
+                    className={`flex items-center justify-between p-2 rounded-lg text-sm ${
+                      conflictingAssets.find(a => a.asset_id === asset.asset_id)
+                        ? 'bg-red-500/10 border border-red-500/30'
+                        : 'bg-neofox-darker'
+                    }`}
+                  >
+                    <div className="flex items-center gap-2">
+                      <Package className="w-4 h-4 text-gray-500" />
+                      <span>{asset.asset_name}</span>
+                      <span className="text-gray-500">({asset.asset_id})</span>
+                    </div>
+                    <button
+                      type="button"
+                      onClick={() => removeAsset(asset.asset_id)}
+                      className="p-1 hover:bg-neofox-gray rounded text-red-400"
+                    >
+                      <X className="w-3 h-3" />
+                    </button>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {/* Search and Add */}
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="Search equipment to add..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                onFocus={() => setShowDropdown(true)}
+                className="input-field text-sm"
+              />
+              {showDropdown && (
+                <>
+                  <div className="fixed inset-0 z-10" onClick={() => setShowDropdown(false)} />
+                  <div className="absolute z-20 w-full mt-2 bg-neofox-dark border border-neofox-gray rounded-lg shadow-xl max-h-48 overflow-y-auto">
+                    {availableAssets.length > 0 ? (
+                      availableAssets.slice(0, 15).map(asset => (
+                        <button
+                          key={asset.asset_id}
+                          type="button"
+                          onClick={() => addAsset(asset)}
+                          className="flex items-center justify-between w-full p-2 hover:bg-neofox-gray text-sm text-left"
+                        >
+                          <div className="flex items-center gap-2">
+                            <Package className="w-4 h-4 text-gray-500" />
+                            <span>{asset.asset_name}</span>
+                            <span className="text-gray-500">({asset.asset_id})</span>
+                          </div>
+                          <Plus className="w-4 h-4 text-neofox-yellow" />
+                        </button>
+                      ))
+                    ) : (
+                      <div className="p-3 text-center text-gray-500 text-sm">
+                        No available equipment found
+                      </div>
+                    )}
+                  </div>
+                </>
+              )}
+            </div>
           </div>
 
           <div>
@@ -495,7 +579,9 @@ function ReservationModal({ assets, reservations, selectedDate, onClose, onSave 
           {hasConflict && (
             <div className="flex items-center gap-2 p-3 bg-red-500/10 border border-red-500/30 rounded-lg text-red-400 text-sm">
               <AlertCircle className="w-4 h-4" />
-              This equipment is already reserved for these dates
+              {conflictingAssets.length === 1
+                ? `${conflictingAssets[0].asset_name} is already reserved for these dates`
+                : `${conflictingAssets.length} items are already reserved for these dates`}
             </div>
           )}
 
@@ -516,7 +602,7 @@ function ReservationModal({ assets, reservations, selectedDate, onClose, onSave 
             </button>
             <button
               type="submit"
-              disabled={saving || hasConflict}
+              disabled={saving || hasConflict || selectedAssets.length === 0}
               className="btn-primary flex items-center gap-2"
             >
               {saving ? (
@@ -527,7 +613,7 @@ function ReservationModal({ assets, reservations, selectedDate, onClose, onSave 
               ) : (
                 <>
                   <Check className="w-4 h-4" />
-                  Create Reservation
+                  Create {selectedAssets.length > 1 ? `${selectedAssets.length} Reservations` : 'Reservation'}
                 </>
               )}
             </button>
