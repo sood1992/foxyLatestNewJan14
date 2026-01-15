@@ -1,3 +1,4 @@
 
 # Backup files
 api/data/*_backup_*.json
+node_modules/
